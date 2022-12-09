@@ -1,0 +1,8 @@
+[package]
+name = 'Cetue-AMM'
+version = '1.0.0'
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "ba5fa41f82bfe3d4e314d41c39fca77131e9f208" }
+
+[addresses]
+cetus_amm = "0xec42a352cc65eca17a9fa85d0fc602295897ed6b8b8af6a6c79ef490eb8f9eba"

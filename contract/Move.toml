@@ -1,0 +1,17 @@
+[package]
+name = 'TransitAggregator'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "80d7b03c630e0066bc12e2a3ba6f3546542bbb8c" }
+Aptoswap = { local = "./exchange/aptoswap" }
+Liquidswap = { git = "https://github.com/pontem-network/liquidswap.git", rev = "v0.4.3" }
+LiquidswapRouterV2 = { git = 'https://github.com/pontem-network/liquidswap.git', subdir = 'liquidswap_router_v2/', rev = "v0.4.3" }
+AnimeSwapV1 = { local = "./exchange/animeswap" }
+PancakeSwap = { git = 'https://github.com/pancakeswap/pancake-contracts-move.git', subdir = 'pancake-swap', rev = "ffb6415eef88ef87b575305b181f74a45bfff30c" }
+aux = { local = "./exchange/aux"}
+Cetue-AMM = { local = "./exchange/cetus"}
+
+[addresses]
+transit_aggregator = "0x325d9eea7124e04da8b8e755c867daa2d37792194492af98127a77b1baeefd06"
+agg_fee_address = "0x655d383c9ed336d7153216d5db9c8ead0fd9534e3de1967c6b6ad99fc5692d65"

@@ -1,0 +1,11 @@
+[package]
+name = 'aux'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "ba5fa41f82bfe3d4e314d41c39fca77131e9f208" }
+
+[addresses]
+aux = '0xbd35135844473187163ca197ca93b2ab014370587bb0ed3befff9e902d6bb541'
+
+
