@@ -13,5 +13,5 @@ aux = { local = "./exchange/aux"}
 Cetue-AMM = { local = "./exchange/cetus"}
 
 [addresses]
-transit_aggregator = "0x325d9eea7124e04da8b8e755c867daa2d37792194492af98127a77b1baeefd06"
+transit_aggregator = "0x76a6de079111442b4df012efcd35da77a99446bff13f4da32e305226e23d6be1"
 agg_fee_address = "0x655d383c9ed336d7153216d5db9c8ead0fd9534e3de1967c6b6ad99fc5692d65"
